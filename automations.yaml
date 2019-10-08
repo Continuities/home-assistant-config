@@ -1,0 +1,50 @@
+- id: '1570496521101'
+  alias: Shut it down when I leave
+  trigger:
+  - entity_id: person.michael
+    from: home
+    platform: state
+    to: not_home
+  condition: []
+  action:
+  - data:
+      entity_id: all
+    service: light.turn_off
+  - data:
+      entity_id: all
+    service: media_player.media_pause
+- id: '1570497265790'
+  alias: Start it up when I get home
+  trigger:
+  - entity_id: person.michael
+    from: not_home
+    platform: state
+    to: home
+  condition: []
+  action:
+  - data:
+      entity_id:
+      - light.entryway
+      - light.living_room_1
+      - light.living_room_2
+      - light.bed
+    service: light.turn_on
+  - data:
+      entity_id: media_player.kitchen_speaker
+      message: Welcome home, Michael.
+    service: tts.google_translate_say
+- id: '1570497491656'
+  alias: Turn it up when I get home
+  trigger:
+  - entity_id: person.michael
+    from: not_home
+    platform: state
+    to: home
+  condition:
+  - after: 08:00
+    before: '23:30'
+    condition: time
+  action:
+  - data:
+      entity_id: media_player.living_room
+    service: media_player.media_play
