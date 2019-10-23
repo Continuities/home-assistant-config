@@ -1,0 +1,65 @@
+resources:
+  - type: js
+    url: /community_plugin/light-entity-card/light-entity-card.js
+  - url: /community_plugin/mini-media-player/mini-media-player-bundle.js
+    type: module
+title: Shoebox
+views:
+  - badges:
+      - binary_sensor.updater
+      - person.michael
+      - sun.sun
+    cards:
+      - entities:
+          - entity: light.entryway
+          - entity: light.living_room_1
+          - entity: light.living_room_2
+          - entity: light.bed
+        title: Main Lights
+        type: entities
+      - brightness: true
+        brightness_icon: weather-sunny
+        color_picker: true
+        color_temp: false
+        color_wheel: true
+        effects_list: false
+        entity: light.nerd_light
+        full_width_sliders: false
+        group: false
+        name: Nerd Lights
+        persist_features: false
+        show_slider_percent: false
+        temperature_icon: thermometer
+        theme: default
+        type: 'custom:light-entity-card'
+        white_icon: file-word-box
+        white_value: false
+      - entity: media_player.living_room
+        type: 'custom:mini-media-player'
+        artwork: cover
+        speaker_group:
+          platform: sonos
+          show_group_count: true
+          entities:
+            - entity_id: media_player.living_room
+              name: Living Room
+            - entity_id: media_player.bedroom
+              name: Bedroom
+      - entity: media_player.bedroom
+        type: 'custom:mini-media-player'
+        artwork: cover
+        speaker_group:
+          platform: sonos
+          show_group_count: true
+          entities:
+            - entity_id: media_player.bedroom
+              name: Bedroom
+            - entity_id: media_player.living_room
+              name: Living Room
+      - entity: media_player.projector
+        type: 'custom:mini-media-player'
+      - entity: media_player.kitchen_nest
+        type: 'custom:mini-media-player'
+    path: default_view
+    title: Home
+
