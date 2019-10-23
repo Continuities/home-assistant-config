@@ -9,10 +9,10 @@
   action:
   - data:
       entity_id: all
-    service: light.turn_off
+    service: media_player.media_pause
   - data:
       entity_id: all
-    service: media_player.media_pause
+    service: light.turn_off
 - id: '1570497265790'
   alias: Start it up when I get home
   trigger:
@@ -30,7 +30,7 @@
       - light.bed
     service: light.turn_on
   - data:
-      entity_id: media_player.kitchen_speaker
+      entity_id: media_player.kitchen_nest
       message: Welcome home, Michael.
     service: tts.google_translate_say
 - id: '1570497491656'
