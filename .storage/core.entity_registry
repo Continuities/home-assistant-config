@@ -9,6 +9,114 @@
                 "name": null,
                 "platform": "updater",
                 "unique_id": "updater"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.michael",
+                "name": null,
+                "platform": "person",
+                "unique_id": "2173baa5768e4a2bb183ac33e17da96a"
+            },
+            {
+                "config_entry_id": "75d4e524e2714471aedb56abddccc610",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.shoebox",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
+            },
+            {
+                "config_entry_id": "cf810ea560ab4738be1ec922457f47c0",
+                "device_id": "3ce685e997f14884afa9568e823c0738",
+                "disabled_by": null,
+                "entity_id": "media_player.projector",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "13f7a4e5-28c5-f9a1-563a-9b898def40f6"
+            },
+            {
+                "config_entry_id": "cf810ea560ab4738be1ec922457f47c0",
+                "device_id": "82a6c90349dd4e138453c629aa38e0c6",
+                "disabled_by": null,
+                "entity_id": "media_player.kitchen_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "ada94aa5-a4da-c87b-6a7c-4f343114f2a5"
+            },
+            {
+                "config_entry_id": "f7f19089dc604a8da0538ee5c8e82e8c",
+                "device_id": "c22c90e098e5488c994e8e3e2af223ff",
+                "disabled_by": null,
+                "entity_id": "light.living_room_2",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:17:88:01:03:bf:59:7f-0b"
+            },
+            {
+                "config_entry_id": "f7f19089dc604a8da0538ee5c8e82e8c",
+                "device_id": "0326044997564b409781e1a765bf98af",
+                "disabled_by": null,
+                "entity_id": "light.entryway",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:17:88:01:03:8f:cb:f3-0b"
+            },
+            {
+                "config_entry_id": "f7f19089dc604a8da0538ee5c8e82e8c",
+                "device_id": "7b276dfac77947939770339031b4d02b",
+                "disabled_by": null,
+                "entity_id": "light.bed",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:17:88:01:03:bf:59:be-0b"
+            },
+            {
+                "config_entry_id": "f7f19089dc604a8da0538ee5c8e82e8c",
+                "device_id": "dba4177ada9e423aae31946aae61e9c6",
+                "disabled_by": null,
+                "entity_id": "light.living_room_1",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:17:88:01:04:2a:c5:b5-0b"
+            },
+            {
+                "config_entry_id": "f7f19089dc604a8da0538ee5c8e82e8c",
+                "device_id": "c6152edaa1bf48668810b0c861e47f30",
+                "disabled_by": null,
+                "entity_id": "light.nerd_lights",
+                "name": null,
+                "platform": "hue",
+                "unique_id": "00:12:4b:00:1c:46:76:d4-0b"
+            },
+            {
+                "config_entry_id": "b380ac9b0d2c4111b21026b2f82b1ee0",
+                "device_id": "ca64123b00ba4f7bb4c49bdfea69c7aa",
+                "disabled_by": null,
+                "entity_id": "media_player.bedroom",
+                "name": null,
+                "platform": "sonos",
+                "unique_id": "RINCON_B8E937EB56E201400"
+            },
+            {
+                "config_entry_id": "b380ac9b0d2c4111b21026b2f82b1ee0",
+                "device_id": "987f48b9d96b455facedba32d3608ba8",
+                "disabled_by": null,
+                "entity_id": "media_player.living_room",
+                "name": null,
+                "platform": "sonos",
+                "unique_id": "RINCON_5CAAFDAE696101400"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.hacs",
+                "name": null,
+                "platform": "hacs",
+                "unique_id": "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
             }
         ]
     },

@@ -1,6 +1,16 @@
 {
     "data": {
-        "credentials": [],
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "michael"
+                },
+                "id": "1c45180170ed439aacc0bbda1affd104",
+                "user_id": "e45b5dd7981e4883b7fd100a762cebe6"
+            }
+        ],
         "groups": [
             {
                 "id": "system-admin",
@@ -15,7 +25,50 @@
                 "name": "Read Only"
             }
         ],
-        "refresh_tokens": [],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.0.18:8123/",
+                "client_name": null,
+                "created_at": "2019-10-29T02:21:55.842076+00:00",
+                "id": "0d1529e3bb824052b75889b74cb03533",
+                "jwt_key": "1d9a5ccbff43622347164f328631334ee6e7a4916ce353b675864e14971ccb57a51f51a23b1f958e6bcd496c412ee2c3a544e7c83aa3271a4cd70fcbb3bb0d0b",
+                "last_used_at": "2019-10-29T02:21:55.842500+00:00",
+                "last_used_ip": "192.168.0.20",
+                "token": "0b3ea28256057c29019e0ef5511ba072e35c65b8eac6b245eac715f7a7e6200d0f9665e152fee2320eb33b4821160d92bbf2b250e68fe9e0183c6c6219152d80",
+                "token_type": "normal",
+                "user_id": "e45b5dd7981e4883b7fd100a762cebe6"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.0.18:8123/",
+                "client_name": null,
+                "created_at": "2019-10-29T02:26:45.447956+00:00",
+                "id": "0dc54be6b9a14677b15a78ccb7604192",
+                "jwt_key": "bb902ab9fe9529aec0db10dd2b08f35645f75c5ecf734221195b03fa1171c26cf567ed4f74fe35f712197c9ab23f58a54e89417e5b2904209e6d99597d7a79be",
+                "last_used_at": "2019-10-29T02:26:45.448212+00:00",
+                "last_used_ip": "192.168.0.20",
+                "token": "f79df6208741b7965e23b0631d6ca5ddaac5dff1aabb21268b79c21ee8d7d7087ffd85b04ae0b7feef943a72f1e4d4c58c3ba06c4b7ac440bdf0a9fc59bf6149",
+                "token_type": "normal",
+                "user_id": "e45b5dd7981e4883b7fd100a762cebe6"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2019-10-29T02:20:36.045880+00:00",
+                "id": "6903d2c8d2ff4e0ba7bbac74bed8c6ea",
+                "jwt_key": "e76744badcafe6204de7686f0ba34420100eaef861e4f7f0a1e63f86827e8781d0e2495a23eedfdad1fc28bf7ff8a90fb69a0441cb557d90099effba57493e54",
+                "last_used_at": null,
+                "last_used_ip": null,
+                "token": "245df1f9ce32463c8a90fc5d1f60de138d7dfcb29bef6f5465450cddae7fa5fead92a064ec4c21691d840400e969470263c8af4c000d190b4bb9ab88fee6d096",
+                "token_type": "system",
+                "user_id": "4f9ea54d6f2849bca9803258fce0a96b"
+            }
+        ],
         "users": [
             {
                 "group_ids": [
@@ -25,6 +78,26 @@
                 "is_active": true,
                 "is_owner": false,
                 "name": "Home Assistant Cloud",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "e45b5dd7981e4883b7fd100a762cebe6",
+                "is_active": true,
+                "is_owner": true,
+                "name": "Michael",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "4f9ea54d6f2849bca9803258fce0a96b",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cast",
                 "system_generated": true
             }
         ]

@@ -30,7 +30,7 @@
       - light.bed
     service: light.turn_on
   - data:
-      entity_id: media_player.kitchen_nest
+      entity_id: media_player.kitchen_speaker
       message: Welcome home, Michael.
     service: tts.google_translate_say
 - id: '1570497491656'
