@@ -13,3 +13,17 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+lovelace:
+  mode: yaml
+
+hacs:
+  token: !secret hacs_token
+
+device_tracker:
+  - platform: hitron_coda
+    host: !secret router_ip
+    username: !secret router_username
+    password: !secret router_password
+    type: rogers
+    interval_seconds: 5
